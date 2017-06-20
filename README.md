@@ -29,14 +29,14 @@ keeti_Result();
 Результат будет примерно такой:
 *Файл, строки => время (количество)*
 
->functionstest.php -583 => 0 (1)
->functionstest.php 583-633 => 0 (1)
->functionstest.php 633-635 => 0.01 (1)
->functionstest.php 635-641 => 0 (1)
->functionstest.php 641-746 => 0 (1)
->functionstest.php 746-748 => 0.01 (1)
->functionstest.php 748-788 => 0 (1)
->functionstest.php 788-788 => 0.205 (19)
->functionstest.php 788-1065 => 0.002 (1)
+> functionstest.php -583 => 0 (1)
+> functionstest.php 583-633 => 0 (1)
+> functionstest.php 633-635 => 0.01 (1)
+> functionstest.php 635-641 => 0 (1)
+> functionstest.php 641-746 => 0 (1)
+> functionstest.php 746-748 => 0.01 (1)
+> functionstest.php 748-788 => 0 (1)
+> functionstest.php 788-788 => 0.205 (19)
+> functionstest.php 788-1065 => 0.002 (1)
 
 При повторах время показывается общее сложенное.
